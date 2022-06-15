@@ -1,3 +1,7 @@
+//Import bootstrap 5. 
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+
+
 //Theme colors. 
 $purple-dark: #9926f0;
 $purple-light: #BB6EF5;
@@ -29,5 +33,6 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black: #000;
 
-//Import bootstrap 5. 
-@import"../node_modules/bootstrap/scss/bootstrap.scss";
+.menu {
+    background-color: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}
