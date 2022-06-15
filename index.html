@@ -8,11 +8,15 @@
     <title>Patrix</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Fira+Sans:wght@200;400&family=Playfair+Display&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500&family=Roboto:ital,wght@0,400;1,100&family=Shizuru&family=Source+Code+Pro:wght@200;600&family=Source+Sans+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 </head>
 
 <body>
     <!-- NavBar Section -->
-    <nav class="menu navbar navbar-expand-lg navbar-dark menu">
+    <nav class="menu navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/logom.png" alt="logo image">
@@ -48,6 +52,65 @@
             </div>
         </div>
     </nav>
+
+    <!--Start intro section-->
+    <section id="home" class="intro-section">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-md-6 intros">
+                    <h1 class="display-2--intro">
+                        <span class="display-2--intro lh-base">
+                            Hey, I'm Mike
+                        </span>
+                        <span class="display-2--description">
+                            This an incredible project that I am building right now! It is spposed that I put a little
+                            more text in here.
+                        </span>
+                    </h1>
+                    <button type="button" class="rounded-pill btn-rounded">Get in touch<span> <i
+                                class="fas fa-arrow-right"></i> </span></button>
+                </div>
+
+                <!--Start content video intro-->
+                <div class="col-md-6 intros text-end">
+                    <div class="video-box">
+                        <img src="images/arts/intro-section-illustration.png" alt="intro image and video ilustration"
+                            class="img-fluid">
+                        <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+                            <span>
+                                <i class="fas fa-play-circle"></i>
+                            </span>
+
+                            <span class="border-animation border-animation--border-1">
+
+                            </span>
+                            <span class="border-animation border-animation--border-2">
+
+                            </span>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,96L48,128C96,160,192,224,288,218.7C384,213,480,139,576,101.3C672,64,768,64,864,96C960,128,1056,192,1152,218.7C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({
+            'href': 'https://youtu.be/tFmy06Gf-c4',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoPlayVideos': 'true'
+        });
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
