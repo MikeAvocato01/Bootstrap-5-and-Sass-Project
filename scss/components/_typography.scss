@@ -26,3 +26,26 @@
     }
 
 }
+
+//Heading line
+
+.heading-liner::before {
+    content: "";
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    margin: 0 auto;
+    background-color: $primary;
+
+}
+
+.heading-liner::after {
+    content: "";
+    width: 2rem;
+    height: 0.2rem;
+    padding: 0.250rem;
+    margin: 0 auto;
+    display: block;
+    background-color: $primary;
+    margin-bottom: 1rem;
+}
