@@ -1,5 +1,7 @@
-//Import bootstrap 5. 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+//Importing functions
+@import "../node_modules/bootstrap/scss/functions";
+
+//CUSTOM BOOTSTRAP. 
 
 //Theme colors. 
 $purple-dark: #9926f0;
@@ -39,3 +41,6 @@ $black: #000;
 .menu {
     background-color: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
+
+//Import bootstrap 5. 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
